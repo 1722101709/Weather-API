@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Weather Prediction Application</title>
+</head>
+<style>
+    *{
+        margin : 0;
+        padding : 0;
+        background : #001;
+        color : #fff;
+    }
+    h1{
+        text-align: center;
+		font-size: 70px;
+		text-decoration: underline double;
+		text-decoration-color: yellow;
+		animation: shine 2s linear infinite ;
+    }
+    	@keyframes shine {
+		0%,20%,40%,60%,80%{
+		text-shadow: none;
+		}
+		20.1%,40.1%,60.1%,80.1%,100%{
+		text-shadow: 0 0 1px #fff,
+		             0 0 5px #fff,
+		             0 0 10px #fff,
+		             0 0 15px #fff;
+		}
+	}
+	.div{
+	    display : flex;
+	    justify-content : center;
+	    align-items : center;
+	    position : relative;
+	    top : 80px;
+	}
+	a{
+	   font-size : 30px;
+	   text-decoration : none;
+	   border-radius : 37px;
+	   border : 7px solid whitesmoke;
+	   margin : 30px;
+	   z-index : 17;
+	   color : orange;
+	   width : 240px;
+	   height : 320px;
+	   display : flex;
+	   justify-content : center;
+	   align-items : center;
+	   text-align : center;
+	   background : black;
+	}
+</style>
+<body>
+    <h1>Weather Prediction Application</h1>
+    <div class="div">
+        <a href="weather">Weather Prediction Application</a>
+        <a href="admin">Admin </a>
+    </div>
+
+</body>
+</html>
